@@ -1,13 +1,13 @@
-name: 'MergeIt'
-description: 'Merge a thing'
+name: 'Coalesce'
+description: 'Validate and merge a PR'
 author: 'Extend'
 inputs:
   token:
     required: true
-    description: "Github Token"
+    description: "Github Auth Token"
   context:
     required: true
-    description: 'The github context passed as toJson(github)'
+    description: 'Github context passed as toJson(github)'
   debug:
     required: false
     description: 'Add debug logs to action'
